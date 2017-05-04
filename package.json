@@ -1,0 +1,23 @@
+{
+  "name": "trtool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gui for viewing/updating i18n for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-all": "(node index.js &) && npm start --prefix public"
+  },
+  "author": "Dimitry Leonov",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.12.6",
+    "koa": "^1.2.4",
+    "koa-body": "^1.6.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "5.0.0",
+    "koa-send": "^3.3.0",
+    "koa-static": "^2.0.0",
+    "pg": "^6.1.2"
+  }
+}
