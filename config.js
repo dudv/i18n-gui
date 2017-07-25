@@ -1,7 +1,7 @@
 const config = {
 	host: 'db.integration.trustyou.com',
 	user: 'hadoop',
-	password: '',
+	password: 'WucavGuksOg5',
 	database: 'ty_analytic'
 }
 

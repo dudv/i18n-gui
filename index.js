@@ -1,4 +1,5 @@
 const app = require('koa')()
+app.use(require('koa-static')('./public/build'))
 const router = require('koa-router')()
 const send = require('koa-send')
 const serve = require('koa-static')
